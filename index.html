@@ -51,5 +51,24 @@
         <div class="filter"></div>
       </section>
     </main>
+
+    <script>
+      const images = [
+        "./p2-0資源包/images/日本櫻花.jpg",
+        "./p2-0資源包/images/大阪街頭.jpg",
+        "./p2-0資源包/images/京都古城.jpg",
+      ];
+
+      const section = document.querySelector(".background-img");
+      let currentIndex = 0;
+
+      // set initial background
+      section.style.backgroundImage = `url(${images[currentIndex]})`;
+
+      setInterval(() => {
+        currentIndex = (currentIndex + 1) % images.length;
+        section.style.backgroundImage = `url(${images[currentIndex]})`;
+      }, 3000);
+    </script>
   </body>
 </html>
