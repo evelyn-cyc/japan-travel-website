@@ -34,7 +34,7 @@ header section.logo img {
 }
 header nav {
   flex: 5 1 500px;
-  padding: 0 2rem;
+  padding: 0 2rem 0 8rem;
 }
 header nav ul {
   display: flex;
@@ -44,7 +44,7 @@ header nav ul {
 header nav ul li a {
   color: black;
   text-decoration: none;
-  font-size: 1.35rem;
+  font-size: 1.2rem;
   transition: all 0.2s ease;
   padding-bottom: 0.3rem;
 }
