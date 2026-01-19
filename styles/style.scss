@@ -94,3 +94,44 @@ main {
     }
   }
 }
+
+section.info-circle {
+  background-color: white;
+  padding: 2rem 1rem;
+
+  h3 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  div.circles {
+    display: flex;
+    flex-wrap: wrap;
+    // border: 3px solid black;
+    justify-content: center;
+
+    div.circle {
+      padding: 1rem;
+      flex: 0 1 250px;
+      // border: 3px solid red;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        width: 80%;
+        border-radius: 50%;
+        transition: all 0.1s ease-in;
+        padding: 0.3rem;
+        &:hover {
+          border: 3px solid $themeColor;
+          // already has padding inside the border, so it will become smaller while hovering
+        }
+      }
+
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
