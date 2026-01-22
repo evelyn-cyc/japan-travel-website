@@ -191,4 +191,23 @@ footer section.links a img {
   body header nav ul li {
     padding: 0.5rem;
   }
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(152, 57, 255, 0.5);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(202, 103, 184);
 }/*# sourceMappingURL=style.css.map */
