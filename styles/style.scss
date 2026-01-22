@@ -103,6 +103,7 @@ body {
         text-align: center;
       }
     }
+
     section.info-circle {
       background-color: white;
       padding: 2rem 1rem;
@@ -154,6 +155,26 @@ body {
       h3 {
         font-size: 2rem;
         color: white;
+      }
+    }
+
+    section.google-map {
+      background-color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+
+      h3 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 1.25rem;
+        margin: 1rem;
+      }
+
+      iframe {
+        width: 100%;
+        height: 40vh;
       }
     }
   }
